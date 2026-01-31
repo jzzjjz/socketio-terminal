@@ -1,0 +1,8 @@
+# в папке backend
+npm init -y
+npm install express socket.io cors
+
+# в папке frontend (create-react-app или другой)
+npx create-react-app frontend
+cd frontend
+npm install socket.io-client axios
